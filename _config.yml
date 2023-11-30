@@ -416,3 +416,5 @@ jsonresume:
   - languages
   - interests
   - references
+
+theme: jekyll-theme-minimal
