@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <style>
+    :root {
+      --accent: #0078d7;
+      --text: #333;
+      --bg: #f8f9fa;
+    }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    main {
+      max-width: 700px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: var(--accent);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .contact {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body { padding: 1rem; }
+      main { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Your Name</h1>
+      <p class="contact">
+        📍 City, Country · 
+        📧 <a href="mailto:you@example.com">you@example.com</a> · 
+        🌐 <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Passionate developer with a focus on building simple, elegant, and efficient web solutions.
+        I enjoy turning complex ideas into clean and functional user experiences.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript, HTML, CSS</li>
+        <li>Python, Flask, Django</li>
+        <li>Git, GitHub, REST APIs</li>
+        <li>UI/UX Design, Responsive Web</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Web Developer</strong> – Freelance (2022–Present)<br>
+          Developed responsive websites for small businesses and personal portfolios.
+        </li>
+        <li><strong>Intern Developer</strong> – Example Company (2021)<br>
+          Assisted in frontend development using React and API integration.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Sc. in Computer Science</strong> – Example University (2018–2022)</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
