@@ -27,8 +27,8 @@
       "name": "Quchan University of Technology",
       "position": "Assistant Professor of Computer Science",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2007-10-01",
+      "endDate": "2025-10-01",
       "summary": "Teaching computer science and related mathematics courses.",
       "highlights": ["Machine Learning"]
     }
@@ -54,7 +54,7 @@
       "studyType": "PhD",
       "startDate": "2012-01-01",
       "endDate": "2019-07-01",
-      "score": "10",
+      "score": "20",
       "courses": ["Active learning in Input and Parameter Spaces"]
     }
   ],
@@ -136,28 +136,45 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Python, C++, Matlab",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Scientific computing",
+        "Numpy",
+        "Pandas",
+        "Scipy"
+      ]
+    },
+    {
+      "name": "Pytorch",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Building deep learning models"
+      ]
+    },
+    {
+      "name": "Software Design",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Building Machine Learning code according to software design Principles",
+        "A Philosophy of Software Design",
+        "Clean Code",
+        "S.O.L.I.D."
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Persian",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional Proficiency",
       "icon": ""
     }
   ],
