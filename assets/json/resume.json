@@ -4,7 +4,7 @@
     "label": "Machine Learning Researcher",
     "image": "",
     "email": "s.h.ghafarian@gmail.com",
-    "phone": "(912) 123-4567",
+    "phone": "123-4567",
     "url": "https://hosseinghafarian.github.io/",
     "summary": "My work explores a central question: how can machines learn robustly from so little, whether it's a handful of examples or the underlying structure of the world itself.",
     "location": {
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Hossein Ghafarian",
-        "url": "https://www.linkedin.com/in/hossein-g-8816a666/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJjF4PTHmTjyUNTQYfF059g%3D%3D"
+        "username": "Seyed Hossein Ghafarian",
+        "url": "https://twitter.com/AlbertEinstein"
       }
     ]
   },
@@ -27,10 +27,22 @@
       "name": "Quchan University of Technology",
       "position": "Assistant Professor of Computer Science",
       "url": "https://example.com",
-      "startDate": "2007",
-      "endDate": "Present",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
       "summary": "Teaching computer science and related mathematics courses.",
       "highlights": ["Machine Learning"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -38,11 +50,21 @@
       "institution": "Ferdowsi University of Mashhad",
       "location": "Mashhad, Iran",
       "url": "https://www.um.ac.ir/",
-      "area": "Artifical Intelligence",
+      "area": "Artificial Intelligence",
       "studyType": "PhD",
+      "startDate": "2012-01-01",
       "endDate": "2019-07-01",
-      "Supervisior": "Prof Hadi Sadoghi Yazdi",
-      "Thesis": ["Active learning in Input and Parameter Spaces"]
+      "score": "10",
+      "courses": ["Active learning in Input and Parameter Spaces"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "certificates": [
@@ -114,45 +136,28 @@
   ],
   "skills": [
     {
-      "name": "Python, C++, Matlab",
+      "name": "Physics",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Scientific computing",
-        "Numpy",
-        "Pandas",
-        "Scipy"
-      ]
-    },
-    {
-      "name": "Pytorch",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Building deep learning models",
-      ]
-    },
-    {
-      "name": "Software Design",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Building Machine Learning code according to software design Principles",
-        "A Philosophy of Software Design",
-        "Clean Code",
-        "S.O.L.I.D."
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Persian",
+      "language": "German",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Professional Proficiency, Gained through one year of full-time work and residence in the United Kingdom.",
+      "fluency": "Fluent",
       "icon": ""
     }
   ],
