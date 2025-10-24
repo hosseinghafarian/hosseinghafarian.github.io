@@ -6,15 +6,21 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 2
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>
+<div class="nav nav-tabs" id="pubsTab" role="tablist">
+ <button class="nav-link active" id="pubs-tab" data-bs-toggle="tab" data-bs-target="#pubs" type="button" role="tab" aria-controls="pubs" aria-selected="true"> Publications </button> 
+ <button class="nav-link" id="talks-tab" data-bs-toggle="tab" data-bs-target="#talks" type="button" role="tab" aria-controls="talks" aria-selected="false"> Talks & Presentations </button> 
+ </div> 
+ <div class="tab-content mt-4" id="pubsTabContent"> <!-- === Publications Tab === --> 
+ <div class="tab-pane fade show active" id="pubs" role="tabpanel" aria-labelledby="pubs-tab"> {% include bib_search.liquid %} <div class="publications"> {% bibliography %} </div> </div>
+  <!-- === Talks Tab === --> 
+  <div class="tab-pane fade" id="talks" role="tabpanel" aria-labelledby="talks-tab"> <p> I regularly present my research at conferences, workshops, and invited seminars. Below is a selection of recent and representative talks. </p> <div class="talks"> 
+  
+  <!-- === Add your talks manually below === --> 
+  <div class="talk mb-3">
+   <p class="mb-1"> <strong>Interpretable Deep Models for Biomedical Signal Analysis</strong><br> <em>International Conference on Machine Learning (ICML)</em>, Vienna, Austria, July 2024 </p> <p class="text-muted" style="margin-bottom: 0.25rem;"> Presented novel methods for explaining neural network decisions in biomedical signal classification. </p> <p> <a href="/assets/slides/icml2024.pdf" target="_blank">📑 Slides</a> · <a href="https://youtu.be/xyz123" target="_blank">🎥 Video</a> </p> 
+  </div> 
+  <div class="talk mb-3"> <p class="mb-1"> <strong>Computational Models for Human Decision-Making</strong><br> <em>University of Amsterdam Seminar Series</em>, Amsterdam, October 2023 </p> <p class="text-muted" style="margin-bottom: 0.25rem;"> Invited talk on reinforcement learning models in cognitive neuroscience and their connection to explainable AI. </p> <p> <a href="https://example.com/slides.pdf" target="_blank">📑 Slides</a> </p> 
+  </div> <!-- Add more talks following the same pattern --> 
+  </div> 
+  </div> 
+  </div> 
