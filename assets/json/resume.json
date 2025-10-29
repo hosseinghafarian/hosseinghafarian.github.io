@@ -1,22 +1,22 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Seyed Hossein Ghafarian",
+    "label": "Machine Learning Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "s.h.ghafarian@gmail.com",
+    "phone": "123-4567",
+    "url": "https://hosseinghafarian.github.io/",
+    "summary": "My work explores a central question: how can machines learn robustly from so little, whether it's a handful of examples or the underlying structure of the world itself.",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "Quchan University of Technology",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Mashhad",
+      "countryCode": "Ir",
+      "region": "Khorasan"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "LinkedIn",
         "username": "AlbertEinstein",
         "url": "https://twitter.com/AlbertEinstein"
       }
