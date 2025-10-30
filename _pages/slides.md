@@ -38,7 +38,22 @@ nav_order: 5
           <a href="{{ s.url }}" rel="noopener" target="_blank">Open</a>
         </p>
       {% endif %}
+      {% if s.slides_url %}
+        <div class="ratio ratio-16x9 mt-3">
+          <iframe
+            src="{{ s.slides_url }}#view=FitH"
+            width="100%"
+            height="600"
+            style="border:1px solid #ccc; border-radius:10px;"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="mt-2">
+          <a href="{{ s.slides_url }}" target="_blank">Open full screen ↗</a>
+        </p>
+      {% endif %}
     </li>
+    <hr class="my-4">
   {% endfor %}
   </ul>
 {% else %}
