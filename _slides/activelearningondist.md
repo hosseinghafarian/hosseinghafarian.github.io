@@ -1,7 +1,7 @@
 ---
 title: "Probabilistic Minimax Active Learning"
 date: 2024-03-10
-event: "Edge Hill University, UK"
+event: "Presented at Edge Hill University, UK, during my postdoc with Prof Ardhendu Behera"
 slides_url: "/assets/slides/activerobustlearning.pdf"
 description: "I developed a principled method for robust active learning that allows AI to learn optimally even from ambiguous or inexact data."
 ---

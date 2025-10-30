@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Slides
+title: slides
 permalink: /slides/
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 <!-- This page lists items from the _slides collection -->
