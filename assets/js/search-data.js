@@ -508,6 +508,11 @@ ninja.data = [{
           description: "An short introduction to Statistical Learning.",
           section: "Slides",handler: () => {
               window.location.href = "/slides/sltferdowsi/";
+            },},{id: "slides-probabilistic-minimax-active-learning",
+          title: 'Probabilistic Minimax Active Learning',
+          description: "I developed a principled method for robust active learning that allows AI to learn optimally even from ambiguous or inexact data.",
+          section: "Slides",handler: () => {
+              window.location.href = "/slides/activelearningondist/";
             },},{
         id: 'social-email',
         title: 'email',
